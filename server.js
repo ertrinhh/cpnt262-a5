@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.set("view engine", "ejs");
 
 app.use("/", (req, res, next) => {
-  res.locals.siteTitle = "CPNT 262 A4";
+  res.locals.siteTitle = "CPNT 262 A5";
   next();
 });
 

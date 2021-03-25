@@ -4,9 +4,9 @@ const mongoose = require("./_connection.js");
 const dbSeed = require(`./seeds/gallery.js`);
 
 // Define model
-const Animal = require(`./models/animal.js`);
+const Gallery = require(`./models/gallery.js`);
 
-Animal.insertMany(dbSeed, function (error, animal) {
+Gallery.insertMany(dbSeed, function (error, gallery) {
   console.log("Data import completed.");
   mongoose.connection.close();
 });
