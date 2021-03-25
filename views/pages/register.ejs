@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/head') %>
+  <body>
+    <%- include('../partials/nav') %>
+
+    <div class="register">
+      <h2>Register</h2>
+      <div class="form-section">
+        <form>
+          <div class="form-action">
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" />
+          </div>
+          <div class="form-action">
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" />
+          </div>
+          <div class="form-action">
+            <label for="email"> Email: </label>
+            <input type="email" name="_replyto" />
+          </div>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+    <%- include('../partials/footer') %>
+  </body>
+</html>
