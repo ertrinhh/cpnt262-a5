@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/head') %>
+  <body>
+    <%- include('../partials/nav') %>
+
+    <h1>EXPRESSSSSSS Congee Gallery</h1>
+    <h3>All images by Erica!</h3>
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img src="/images/<%= image.path %>.jpg" alt="<%= image.title %>" />
+        <figcaption><%= image.description %></figcaption>
+      </figure>
+    </div>
+    <%- include('../partials/footer') %>
+  </body>
+</html>
