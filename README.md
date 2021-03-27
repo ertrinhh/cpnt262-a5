@@ -1,14 +1,12 @@
-## CPNT 262-a4
+## CPNT 262-a5
 
 # Erica Trinh
 
 - Github Links
-  - [GitHub Repo](https://github.com/ertrinhh/cpnt262-a4)
-  - [Heroku Page](https://json-congee-gallery.herokuapp.com)
+  - [GitHub Repo](https://github.com/ertrinhh/cpnt262-a5)
+  - [Heroku Page](https://cpnt262-a5-congee.herokuapp.com/)
 
-## Assignment 4: JSON gallery endpoint with fetch
-
-I really couldn't have done it without Vitaly LOL
+## Assignment 5: JSON Routes with Heroku and MongoDB Atlas
 
 ## Honorable Mentions
 
